@@ -1,0 +1,15 @@
+Notes
+
+Differences between Go and Ruby
+
+
+Compiled instead of interpreted language
+Statically typed instead of dynamically typed
+User defined Types instead of Classes, there is no inheritance
+For loop is the only loop statement
+
+Questions
+
+machine code vs byte code
+statement vs expression
+quadratic process, looping through args, but what about strings.Join?
