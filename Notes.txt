@@ -13,3 +13,15 @@ Questions
 machine code vs byte code
 statement vs expression
 quadratic process, looping through args, but what about strings.Join?
+
+- Look up documtation for fmt.Printf for %g from the command line
+
+go help doc
+usage: go doc [-u] [-c] [package|[package.]symbol[.methodOrField]]
+go doc fmt.Printf
+func Printf(format string, a ...interface{}) (n int, err error)
+    Printf formats according to a format specifier and writes to standard
+    output. It returns the number of bytes written and any write error
+    encountered.
+go doc fmt | grep '  %g'
+    %g	%e for large exponents, %f otherwise. Precision is discussed below.
