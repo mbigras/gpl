@@ -1,0 +1,14 @@
+---
+- name: install tools
+  unarchive:
+    src: https://dl.google.com/go/{{ goversion }}.{{ goos }}-{{ goarch }}.tar.gz
+    dest: /usr/local
+    remote_src: yes
+
+- name: create source file to update PATH
+  copy:
+    src: go.sh
+    dest: /etc/profile.d/go.sh
+    owner: root
+    group: root
+    mode: 0644

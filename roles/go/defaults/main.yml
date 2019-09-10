@@ -1,0 +1,4 @@
+---
+goversion: go1.12.5
+goos: linux
+goarch: amd64
